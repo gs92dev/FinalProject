@@ -7,8 +7,93 @@
     <title>About Us</title>
     <link rel="stylesheet" href="./css/style-geral.css" />
     <link rel="stylesheet" href="./css/style-about.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <p>Hello!</p>
+    <div class="imageback">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark opacity-25 p-4">
+          <h5 class="text-white h4">Collapsed content</h5>
+          <span class="text-body-secondary"
+            >Toggleable via the navbar brand.</span
+          >
+        </div>
+      </div>
+      <nav class="navbar navbar-dark shadow-5-strong bg-dark">
+        <div class="container-fluid nav-reverse">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+    <div class="mission">
+      <h1>About Us</h1>
+      <p class="aboutUs">
+        Greetings! My name is [Your Name] and I am a self-proclaimed snack
+        aficionado with a particular passion for international snacks. I believe
+        that snacks are not only a quick and convenient source of sustenance,
+        but also a reflection of a country's culture, history, and culinary
+        traditions. Whether it's a crispy bag of chips from South Korea, a sweet
+        and savory empanada from Argentina, or a tangy pickled plum from Japan,
+        I am always eager to discover and try new international snacks that
+        tantalize my taste buds. With my extensive knowledge and experience in
+        sampling snacks from different parts of the world, I am excited to share
+        my insights and recommendations on some of the most delicious and unique
+        international snacks out there. Join me on this journey of exploring the
+        amazing flavors and textures of international snacks and find your next
+        favorite munchie.
+      </p>
+    </div>
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/Atractions.jpg" class="d-block w-75" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./img/beaches.jpg" class="d-block w-75" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./img/other.jpg" class="d-block w-75" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleRide"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleRide"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

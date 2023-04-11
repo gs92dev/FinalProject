@@ -1,24 +1,31 @@
 .image-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url('../img/home/home-1.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Monk_Skin_Tone.max-1000x1000.width-1000.format-webp.webp);
   width: 100%;
-  height: 100vw;
+  height: 30rem;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.h1-phrase{
+  color: aliceblue;
+ padding-top: 18rem;
+ text-align: center;
 }
 .carousel-home {
   width: 100%;
   margin: auto;
-  padding-top: 40rem;
+  
 }
 
 .cards-home {
+  background-color: rgb(83, 76, 76);
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
-  padding-top: 5rem;
   gap: 0.5rem;
-  padding-bottom: 10rem;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+  padding-top: 5rem;
+  
 }
 
 .carousel-item img {
@@ -28,4 +35,25 @@
 .cards-img{
   width: 5rem;
   height: 15rem;
+}
+footer{
+  background-color: rgb(127, 118, 118);
+  color: white;
+  font-weight: 600;
+  height: 3rem;
+}
+@media only screen and (max-width: 600px) {
+  .image-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../img/home/transferir.jpg);
+
+    height: 30rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .h1-phrase{
+    color: aliceblue;
+   padding-top: 10rem;
+   text-align: center;
+  }
 }

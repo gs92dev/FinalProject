@@ -28,7 +28,7 @@
         >
           <div class="p-4">
             <a class="text-dark h4 p-3" href="./about.html"> About Us</a>
-            <a class="text-dark h4 p-3" href="./connectWith.html">
+            <a class="text-dark h4 p-3" href="./connect-with.html">
               Connect With Us</a
             >
             <a class="text-dark h4 p-3" href="./products.html"> Products</a>
@@ -64,6 +64,8 @@
           </div>
         </nav>
       </header>
+      <h1 class="h1-phrase">"Beautiful skin comes in all shades, let's celebrate diversity through skincare."</h1>
+    </div>
       <!-- Beginning Main-->
       <!-- Carousel Home-->
       <div class="carousel-home">
@@ -75,21 +77,21 @@
           <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
               <img
-                src="./img/home/home-1.jpg"
+                src="./img/home/pexels-esmeralda-segura-3427769.jpg"
                 class="d-block w-100"
                 alt="..."
               />
             </div>
             <div class="carousel-item" data-bs-interval="2000">
               <img
-                src="./img/home/home-1.jpg"
+                src="./img/home/pexels-august-de-richelieu-7433337.jpg"
                 class="d-block w-100"
                 alt="..."
               />
             </div>
             <div class="carousel-item">
               <img
-                src="./img/home/home-1.jpg"
+                src="./img/home/pexels-anna-shvets-3851790.jpg"
                 class="d-block w-100"
                 alt="..."
               />
@@ -144,14 +146,39 @@
             <p class="card-text">
               Subscribe to our newsletter and stay up-to-date with our latest news, products, and exclusive offers.
             </p>
-            <a href="#" class="btn btn-primary">Subscribe</a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <!--Canvas form-->
+      <div>
+
+        <div class="offcanvas offcanvas-bottom h-auto" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Get to know everything new we have today!!!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body ">
+            <!--Form Subscribe-->
+            <form>
+              <div class="mb-3 col-md-4">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3 col-md-4">
+                <label for="exampleInputName1" class="form-label col-lg-6">First Name</label>
+                <input type="text" class="form-control" id="exampleInputName1" required>
+              </div>            
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
           </div>
         </div>
       </div>
       <footer>
         <p>&#169; Brand Inc.</p>
       </footer>
-    </div>
+   
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"

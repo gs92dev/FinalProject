@@ -4,3 +4,25 @@
 header {
   background-color: black;
 }
+
+img {
+  width: 5rem; height: 5rem; 
+  transition: property duration timing-function delay|initial|inherit;
+  hover{
+    transform: none|transform-functions| initial|inherit;
+    }
+
+
+  //This is used to control the animation speed and its duration
+img{
+transition: property duration timing-function delay|initial|inherit;
+}
+//This property is used to change the properties of the image on hover
+img:hover{
+transform: none|transform-functions| initial|inherit;
+}
+//This property is used to change the properties of the image on hover
+img:hover{
+transform: none|transform-functions| initial|inherit;
+}
+}

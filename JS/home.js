@@ -1,4 +1,4 @@
-console.log("hello world!");
+/*console.log("hello world!");
 let background = document.getElementById("background");
 
 function changeClass(event) {
@@ -6,4 +6,4 @@ function changeClass(event) {
   event.target.classList.remove(`image-background`);
 }
 
-background.onwheel = changeClass;
+background.onwheel = changeClass;*/

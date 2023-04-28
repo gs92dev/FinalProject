@@ -2,5 +2,35 @@
   color: red;
 }
 header {
-  background-color: black;
+  /*background-color: rgb(207, 159, 90);*/
+}
+
+.background-top{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  url(../img/products/home-1.jpg);
+  height: 50vh;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.caroussels{
+  padding: 4rem 0 4rem 0;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+}
+.carousel-products{
+
+}
+
+.products-ul{
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+.products-ul li{
+ list-style: none;
+}
+.img-product{
+  height: 350px;
+  width: 250;
 }

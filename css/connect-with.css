@@ -2,10 +2,18 @@
   color: red;
 }
 header {
-  background-color: black;
+  background-color: rgb(148, 116, 72);
 }
-
-img {
+input{
+  border: 1px black solid;
+}
+img{
+  width: 5rem; height: 5rem; 
+}
+button{
+  border: 1px black solid;
+}
+/*img {
   width: 5rem; height: 5rem; 
   transition: property duration timing-function delay|initial|inherit;
   hover{
@@ -25,4 +33,4 @@ transform: none|transform-functions| initial|inherit;
 img:hover{
 transform: none|transform-functions| initial|inherit;
 }
-}
+}*/

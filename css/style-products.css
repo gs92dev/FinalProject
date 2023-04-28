@@ -2,21 +2,24 @@
   color: red;
 }
 header {
-  /*background-color: rgb(207, 159, 90);*/
+  background-color: rgb(207, 159, 90);
+  position: relative;
 }
 
-.background-top{
+/*.background-top{
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
   url(../img/products/home-1.jpg);
   height: 50vh;
  background-size: cover;
  background-repeat: no-repeat;
-}
+}*/
 .caroussels{
-  padding: 4rem 0 4rem 0;
-  width: 100%;
+  padding: 1rem 0 4rem 0;
+  /*width: 100%;*/
   height: fit-content;
   display: flex;
+  flex-wrap: wrap;
+  position: static;
 }
 .carousel-products{
 

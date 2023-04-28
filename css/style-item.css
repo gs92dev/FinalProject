@@ -1,6 +1,19 @@
 .test-connect {
-  color: red;
+  color: rgb(30, 31, 31);
 }
 header {
   background-color: black;
+}
+section{
+  width: 50%;
+  border: 1px solid black;
+   padding: 20px;
+  
+}
+.form{
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
 }

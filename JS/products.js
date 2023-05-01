@@ -1,6 +1,20 @@
+import { ProductController } from "./product-controller.js";
 // Initialize a new TaskManager with currentId set to 0
-const itemsController = new ItemsController(0);
+const products = new ProductController();
+products.addItem(
+  "Facial Mask",
+  "Description",
+  "../img/products/pexels-shiny-diamond-3762875.jpg."
+);
+products.addItem(
+  "Facial Mask",
+  "Description",
+  "../img/products/pexels-shiny-diamond-3762875.jpg."
+);
 
+console.log(products);
+
+/*
 // Select the New Task Form
 const newItemForm = document.querySelector('#newItemForm');
 
@@ -13,9 +27,9 @@ newItemForm.addEventListener('submit', (event) => {
     const newItemNameInput = document.querySelector('#newItemNameInput');
     const newItemDescription = document.querySelector('#newItemDescription');
 
-    /*
-        Validation code here
-    */
+    
+     //   Validation code here
+    
 
     // Get the values of the inputs
     const name = newItemNameInput.value;
@@ -52,3 +66,5 @@ addItemCard({'name':'juice',
 addItemCard({'name':'Tayto',
     'img':'https://www.irishtimes.com/polopoly_fs/1.4078148!/image/image.jpg',
     'description':'Cheese & Onion Chips'})
+    
+    */

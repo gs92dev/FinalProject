@@ -1,3 +1,4 @@
+import { ProductController } from "./product-controller.js";
 /*console.log("hello world!");
 let background = document.getElementById("background");
 
@@ -7,3 +8,31 @@ function changeClass(event) {
 }
 
 background.onwheel = changeClass;*/
+const products = new ProductController();
+products.addItem(
+  "Facial Mask",
+  "Description",
+  "../img/products/pexels-shiny-diamond-3762875.jpg."
+);
+products.addItem(
+  "Facial Mask",
+  "Description",
+  "../img/products/pexels-shiny-diamond-3762875.jpg."
+);
+products.addItem(
+  "Facial Mask",
+  "Description",
+  "../img/products/pexels-shiny-diamond-3762875.jpg."
+);
+products.addItem(
+  "Facial Mask",
+  "Description",
+  "../img/products/pexels-shiny-diamond-3762875.jpg."
+);
+products.addItem(
+  "Facial Mask",
+  "Description",
+  "../img/products/pexels-shiny-diamond-3762875.jpg."
+);
+
+console.log(products.items);

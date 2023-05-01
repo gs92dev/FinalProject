@@ -1,18 +1,18 @@
 import { ProductController } from "./product-controller.js";
 // Initialize a new TaskManager with currentId set to 0
-const products = new ProductController();
+export const products = new ProductController();
 products.addItem(
-  "Facial Mask",
-  "Description",
-  "../img/products/pexels-shiny-diamond-3762875.jpg."
+  "Facial Moisturizer",
+  9.99,
+  "Orange and Apple juice fresh and delicious",
+  "img/products/pexels-shiny-diamond-3762870.jpg"
 );
 products.addItem(
-  "Facial Mask",
-  "Description",
-  "../img/products/pexels-shiny-diamond-3762875.jpg."
+  "Vitamin C",
+  15.99,
+  "Orange and Apple juice fresh and delicious",
+  "img/products/pexels-koolshooters-8945936.jpg"
 );
-
-console.log(products);
 
 /*
 // Select the New Task Form
@@ -42,29 +42,29 @@ newItemForm.addEventListener('submit', (event) => {
     // Clear the form
     newItemNameInput.value = '';
     newItemDescription.value = '';
-});
+}); */
 
-
-function addItemCard(item){
-    const itemHTML = '<div class="card" style="width: 18rem;">\n' +
-        '    <img src="'+item.img +'" class="card-img-top" alt="image">\n' +
-        '    <div class="card-body">\n' +
-        '        <h5 class="card-title">'+item.name+'</h5>\n' +
-        '        <p class="card-text">'+item.description+'</p>\n' +
-        '        <a href="#" class="btn btn-primary">Add</a>\n' +
-        '    </div>\n' +
-        '</div>\n' +
-        '<br/>';
-    const itemsContainer = document.getElementById("list-items");
-    itemsContainer.innerHTML += itemHTML;
+export function addItemCard(item) {
+  const itemHTML =
+    `<div class="card" style="width: 18rem">
+  <img
+    class="card-img-top"
+    src=' ${item.imageUrl}'
+    alt="Card image cap"
+  />` +
+    `<div class="card-body">
+    <h5 class="card-title">${item.name}</h5>
+    <p>${item.price}</p>` +
+    `<p class="card-text">${item.description}</p>
+      
+    </p>` +
+    `<a href="#" class="btn btn-dark">Add to cart</a>
+  </div>
+</div>`;
+  console.log(itemHTML);
+  const itemsContainer = document.getElementById("ulCards");
+  itemsContainer.innerHTML += itemHTML;
 }
-
-addItemCard({'name':'juice',
-    'img':'https://www.gs1india.org/media/Juice_pack.jpg',
-    'description':'Orange and Apple juice fresh and delicious'});
-
-addItemCard({'name':'Tayto',
-    'img':'https://www.irishtimes.com/polopoly_fs/1.4078148!/image/image.jpg',
-    'description':'Cheese & Onion Chips'})
-    
-    */
+console.log(products.items[1]);
+addItemCard(products.items[1]);
+addItemCard(products.items[0]);

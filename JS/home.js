@@ -14,25 +14,6 @@ products.addItem(
   "Description",
   "../img/products/pexels-shiny-diamond-3762875.jpg."
 );
-products.addItem(
-  "Facial Mask",
-  "Description",
-  "../img/products/pexels-shiny-diamond-3762875.jpg."
-);
-products.addItem(
-  "Facial Mask",
-  "Description",
-  "../img/products/pexels-shiny-diamond-3762875.jpg."
-);
-products.addItem(
-  "Facial Mask",
-  "Description",
-  "../img/products/pexels-shiny-diamond-3762875.jpg."
-);
-products.addItem(
-  "Facial Mask",
-  "Description",
-  "../img/products/pexels-shiny-diamond-3762875.jpg."
-);
 
-console.log(products.items);
+
+//console.log(products.items);

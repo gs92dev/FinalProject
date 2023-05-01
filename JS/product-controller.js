@@ -7,7 +7,7 @@ export class ProductController {
   }
 
   // Create the addItem method
-  addItem(name, description, imageUrl) {
+  addItem(name, price,description, imageUrl) {
     const item = {
       // Increment the currentId property
       id: this.currentId++,
@@ -15,6 +15,7 @@ export class ProductController {
       description: description,
       imageUrl: imageUrl,
       createdAt: new Date(),
+      price: price,
     };
 
     // Push the item to the items property

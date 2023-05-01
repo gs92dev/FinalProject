@@ -17,8 +17,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <script src="./JS/product-controller.js" defer></script>
-    <script src="./JS/item.js" defer></script>
+    <script src="./JS/item.js" type="module" defer></script>
+    <script src="./JS/products.js" type="module" defer></script>
   </head>
   <body>
     <!--Nav Bar-->
@@ -121,58 +121,41 @@
       </div>
     </div>
 
-    <ul class="products-ul">
-      <li>
+    <div class="products-ul" data-card="ul" id="ulCards">
+      <div class="card" style="width: 18rem">
         <img
-          class="img-product"
+          class="card-img-top"
           src="./img/products/home-1 - Copy.jpg"
-          alt=""
+          alt="Card image cap"
         />
-        <p>Product Name</p>
-        <p>Price</p>
-        <p>Product description</p>
-      </li>
-      <li>
+        <div class="card-body">
+          <h5 class="card-title">Serum</h5>
+          <p>$15.99</p>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-dark">Add to cart</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem">
         <img
-          class="img-product"
+          class="card-img-top"
           src="./img/products/home-1 - Copy.jpg"
-          alt=""
+          alt="Card image cap"
         />
-        <p>Product Name</p>
-        <p>Price</p>
-        <p>Product description</p>
-      </li>
-      <li>
-        <img
-          class="img-product"
-          src="./img/products/home-1 - Copy.jpg"
-          alt=""
-        />
-        <p>Product Name</p>
-        <p>Price</p>
-        <p>Product description</p>
-      </li>
-      <li>
-        <img
-          class="img-product"
-          src="./img/products/home-1 - Copy.jpg"
-          alt=""
-        />
-        <p>Product Name</p>
-        <p>Price</p>
-        <p>Product description</p>
-      </li>
-      <li>
-        <img
-          class="img-product"
-          src="./img/products/home-1 - Copy.jpg"
-          alt=""
-        />
-        <p>Product Name</p>
-        <p>Price</p>
-        <p>Product description</p>
-      </li>
-    </ul>
+        <div class="card-body">
+          <h5 class="card-title">Serum</h5>
+          <p>$15.99</p>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-dark">Add to cart</a>
+        </div>
+      </div>
+    </div>
     <footer>
       <p>&#169; FaceTogether, “Our.Problems” Inc.</p>
     </footer>

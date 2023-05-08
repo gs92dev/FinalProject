@@ -7,7 +7,7 @@ export class ProductController {
   }
 
   // Create the addItem method
-  addItem(name, price,description, imageUrl) {
+  addItem(name, price, description, imageUrl) {
     const item = {
       // Increment the currentId property
       id: this.currentId++,
@@ -20,6 +20,19 @@ export class ProductController {
 
     // Push the item to the items property
     this.items.push(item);
+    //Save items to local storage
+    localStorage.setItem("items", JSON.stringify(this.items));
+  }
+
+  loadItemsFromLocalStorage() {
+    const storageItems = localStorage.getItem("items");
+    if (storageItems) {
+      const items = JSON.parse(storageItems);
+      for (var i = 0, size = items.length; i < size; i++) {
+        const item = items[i];
+        this.items.push(item);
+      }
+    }
   }
 }
 //const products = new ProductController();

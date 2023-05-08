@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/style-item.css" />
     <title>Item-form</title>
 
-    <script src="./JS/products.js" type="module" defer></script>
+    <script src="./JS/item-form.js" type="module" defer></script>
   </head>
   <body>
     <header>
@@ -48,7 +48,7 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a href="" class="navbar-brand"> <h1>BrandName</h1> </a>
+          <a href="" class="navbar-brand p-2"> <h1>BrandName</h1> </a>
           <!-- Links  NAV-->
           <div class="nav-links">
             <a
@@ -81,8 +81,9 @@
               />
               <div class="form-group">
                 <label for="exampleFormControlTextarea1"></label>
-                <textarea required
-                  class="form-control"                  
+                <textarea
+                  required
+                  class="form-control"
                   rows="3"
                   placeholder="Description"
                   id="newItemDescription"
@@ -93,20 +94,21 @@
               <div class="form-group">
                 <label for="exampleFormControlInput1"></label>
                 <input
-                  type="text"
+                  type="number"
                   class="form-control"
                   placeholder="Price"
-                  id="newItemPrice" required
+                  id="newItemPrice"
+                  required
                 />
               </div>
-              <div class="form-group">
-                <label for="exampleFormControlFile1">Upload Image</label>
-                <input
-                  type="file"
-                  class="form-control-file"
-                  id="newItemImg"
-                />
-              </div>
+
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Img Path"
+                id="newItemImg"
+                required
+              />
             </div>
           </div>
           <button type="submit" class="btn btn-dark">Submit</button>

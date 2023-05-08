@@ -1,63 +1,11 @@
 import { ProductController } from "./product-controller.js";
 // Initialize a new TaskManager with currentId set to 0
-export const products = new ProductController();
-products.addItem(
-  "Facial Moisturizer",
-  9.99,
-  "Orange and Apple juice fresh and delicious",
-  "img/products/pexels-shiny-diamond-3762870.jpg"
-);
-products.addItem(
-  "Vitamin C",
-  15.99,
-  "Orange and Apple juice fresh and delicious",
-  "img/products/pexels-koolshooters-8945936.jpg"
-);
 
-// Select the New Task Form
-const newItemForm = document.querySelector("#itemForm");
+const products = new ProductController(0);
 
-// Add an 'onsubmit' event listener
-newItemForm.addEventListener("submit", (event) => {
-  // Prevent default action
-  event.preventDefault();
 
-  // Select the inputs
-  const newItemNameInput = document.querySelector("#newItemNameInput");
-  const newItemDescription = document.querySelector("#newItemDescription");
-  const newItemPrice = document.getElementById("newItemPrice");
-  const newItemImg = document.getElementById("newItemImg");
-
-  //   Validation code here
-
-  // Get the values of the inputs
-  const price = newItemPrice.value;
-  const name = newItemNameInput.value;
-  const description = newItemDescription.value;
-  const createdAt = new Date();
-  const img = newItemImg.value;
-
-  /*const reader = new FileReader();
-  reader.addEventListener("load", (event) => {
-    const imageDataUrl = event.target.result;
-    console.log("Image data URL:", imageDataUrl);
-    // TODO: do something with the image data URL   
-  });
-
-  reader.readAsDataURL(img);*/
-
-  console.log(name, price, description, createdAt, img);
-  // Add the task to the task manager
-  // itemsController.addItem(name, description, createdAt);
-
-  // Clear the form
-  newItemNameInput.value = "";
-  newItemDescription.value = "";
-  newItemPrice.value = "";
-  newItemImg.value = "";
-});
-
-/*export function addItemCard(item) {
+//Add a new product in the product page
+ function addItemCard(item) {
   const itemHTML =
     `<div class="card" style="width: 18rem">
   <img
@@ -78,6 +26,16 @@ newItemForm.addEventListener("submit", (event) => {
   const itemsContainer = document.getElementById("ulCards");
   itemsContainer.innerHTML += itemHTML;
 }
-console.log(products.items[1]);
-addItemCard(products.items[1]);
-addItemCard(products.items[0]);*/
+
+function loadCardsListFromItemsController(){
+  for(var i = 0, size = products.items.length; i < size ; i++){
+      const item = products.items[i];
+      addItemCard(item);
+  }
+}
+
+
+products.loadItemsFromLocalStorage();
+loadCardsListFromItemsController();
+console.log(products);
+

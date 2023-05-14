@@ -1,10 +1,5 @@
-.imageback {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url('../img/Background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
+main, header{
+  background-color: #ccb9a8;
 }
 p {
   color: white;
@@ -25,9 +20,20 @@ p {
 .carousel-about {
   margin: auto;
   padding-top: 1rem;
-  width: 60%;
+  width: 80%;
+  display: block;
+  height: 30%;
+  padding-bottom: 20px;
 }
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
   filter: invert(100%);
+}
+.item{
+  height: 700px;
+}
+
+.item img {
+
+    min-height: 300px;
 }

@@ -30,10 +30,12 @@ p {
   filter: invert(100%);
 }
 .item{
-  height: 700px;
+  /*height: 700px;*/
 }
 
-.item img {
-
-    min-height: 300px;
+.test{
+  display: flex;
+}
+.col-img{
+height: 100%;
 }

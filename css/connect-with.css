@@ -1,36 +1,104 @@
-.test-connect {
-  color: red;
+
+main, header{
+  background-color: #ccb9a8;
 }
-header {
-  background-color: rgb(148, 116, 72);
+main{
+  padding-bottom: 30px;
+}
+.title {  
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+figure{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 3px;
+  padding: 3px;
+}
+figcaption{
+  color: white;
+  font-size: 1rem;
+  padding: 15px;
+}
+p{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+img{
+  width: 5rem; height: 5rem; 
+}
+
+.images-section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.logo-form_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px 0 50px 0;
+  width: 100%;
+}
+
+.logo-container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 40%;
+}
+.form-Container{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+form{
+  background-color: #84776c;
+  border-radius: 10px;
+  border: black 1px solid;
+  box-shadow: 10px 5px 5px #a59384;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px ;
+  width: 500px;
+}
+label{
+  color: white;
+  margin: 5px;
 }
 input{
+  background-color: #e2d7ce;
+  border-radius: 7px;
   border: 1px black solid;
+  box-shadow: 7px 4px 4px #a59384;
+  font-size: 1rem;
+  width: 300px;
 }
-img{
-  width: 5rem; height: 5rem; 
-}
-button{
+textarea{
+  background-color: #e2d7ce;
+  border-radius: 10px;
   border: 1px black solid;
+  box-shadow: 7px 4px 4px #a59384;
+  padding: 5px;
+  width: 400px;
 }
-/*img {
-  width: 5rem; height: 5rem; 
-  transition: property duration timing-function delay|initial|inherit;
-  hover{
-    transform: none|transform-functions| initial|inherit;
-    }
-
-
-  //This is used to control the animation speed and its duration
-img{
-transition: property duration timing-function delay|initial|inherit;
+.btn-send{
+  border: 1px black solid;
+  margin: 10px;
+  width: 100px;
+  border-radius: 10px;
+  height: 30px;
+  font-weight: bold;
+  transition: 2s;
 }
-//This property is used to change the properties of the image on hover
-img:hover{
-transform: none|transform-functions| initial|inherit;
+.btn-send:hover{
+  height: 45px;
+  cursor: pointer;
 }
-//This property is used to change the properties of the image on hover
-img:hover{
-transform: none|transform-functions| initial|inherit;
-}
-}*/

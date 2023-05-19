@@ -67,33 +67,52 @@
       </nav>
     </header>
     <!-- Beginning Main-->
-    <h3>Connect with us!</h3>
-    <p class="connect">
-      Face2Face, FaceTweets, InstantNewFace, & LinkFaces are below.
-    </p>
-
-    <img src="./img/connect/Facebook.png" alt="Face2Face" />
-    <img src="./img/connect/Twitter.png" alt="(Twitter image) FaceTweets" />
-    <img
-      src="./img/connect/Instagram.svg"
-      alt="(Instagram image) InstantNewFace"
-    />
-    <img
-      src="./img/connect/Linkedin.png"
-      alt="(Linkedin image) LinkFaces"
-    /><br />
-    <br />
-    <form action="/action_page.php" method="get">
-      <label for="fname">First name</label>
-      <input type="text" id="fname" name="fname" /><br /><br />
-      <label for="lname">Last name</label>
-      <input type="text" id="lname" name="lname" /><br /><br />
-      <label for="lname">Email</label>
-      <input type="text" id="lname" name="lname" /><br /><br />
-      <label for="comment">Comment</label>
-      <input type="text" id="comment" name="comment" /><br /><br />
-      <button type="button">Send</button>
-    </form>
+    <main>
+    <h1 class="title">Connect with us!</h1>
+    <section class="images-section">
+      <figure>
+        <figcaption>Face2Face</figcaption>
+        <img src="./img/connect/Facebook.png" alt=" Facebook image Face2Face" />
+      </figure>
+      <figure>
+        <figcaption>FaceTweets</figcaption>
+        <img src="./img/connect/Twitter.png" alt="(Twitter image) FaceTweets" />
+      </figure>
+      <figure>
+        <figcaption>InstantNewFace</figcaption>
+        <img
+          src="./img/connect/Instagram.svg"
+          alt="(Instagram image) InstantNewFace"
+        />
+      </figure>
+      <figure>
+        <figcaption>LinkFaces</figcaption>
+        <img
+          src="./img/connect/Linkedin.png"
+          alt="(Linkedin image) LinkFaces"
+        />
+      </figure>
+    </section>
+    <div class="logo-form_container">
+    <section class="logo-container">      
+      <p>FaceTogether, "Our Problems"</p>
+      <img src="./img/connect/Logo.png" alt="Logo FaceTogether" />
+    </section>
+    <section class="form-Container">
+      <form>
+        <label for="fname">First name</label>
+        <input type="text" id="fname" name="fname" />
+        <label for="lname">Last name</label>
+        <input type="text" id="lname" name="lname" />
+        <label for="lname">Email</label>
+        <input type="text" id="lname" name="lname" />
+        <label for="comment">Comment</label>
+        <textarea name="Comment" id="" cols="30" rows="5"></textarea>
+        <button type="button" class="btn-send">Send</button>
+      </form>
+    </section>
+  </main>
+  </div>
     <footer>
       <p>&#169; FaceTogether, “Our.Problems” Inc.</p>
     </footer>

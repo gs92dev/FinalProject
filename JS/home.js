@@ -1,18 +1,19 @@
-//import { ProductController } from "./product-controller.js";
-/*console.log("hello world!");
-let background = document.getElementById("background");
+const formContainer = document.getElementById("formContainer");
+const subscribe = document.getElementById("subscribe");
+const closeForm = document.getElementById("closeForm");
+const form = document.getElementById ("form");
 
-function changeClass(event) {
-  event.target.classList.add(`image-background-2`);
-  event.target.classList.remove(`image-background`);
+subscribe.onclick = function () {
+  if (formContainer.getAttribute("class") == "form-container") {
+    formContainer.setAttribute("class", "form-none");
+  } else {
+    formContainer.setAttribute("class", "form-container");
+  }
+};
+closeForm.onclick = function () {
+  formContainer.setAttribute("class", "form-none");
+};
+form.onsubmit = (event)=>{
+  event.preventdefault;
+  formContainer.setAttribute("class", "form-none");
 }
-
-background.onwheel = changeClass;
-const products = new ProductController();
-products.addItem(
-  "Facial Mask",
-  "Description",
-  "../img/products/pexels-shiny-diamond-3762875.jpg."
-);*/
-
-//console.log(products.items);

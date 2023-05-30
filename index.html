@@ -17,7 +17,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <script src="./JS/home.js" type="module" defer></script>
+    <script src="./JS/home.js" defer></script>
   </head>
   <body>
     <div class="image-background" id="background">
@@ -48,7 +48,9 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a href="" class="navbar-brand me-auto p-3"> <h1>FaceTogether</h1> </a>
+            <a href="" class="navbar-brand me-auto p-3">
+              <h1>FaceTogether</h1>
+            </a>
             <!-- Links  NAV-->
             <div class="nav-links">
               <a
@@ -122,112 +124,70 @@
       </div>
     </div>
     <!--Cards Home-->
-    <div class="cards-home">
-      <div class="card" style="width: 18rem">
-        <img
-          src="./img/home/Connect-card.jpg"
-          class="card-img-top cards-img"
-          alt="connect with us"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Connect with us!</h5>
-          <p class="card-text">
-            Stay connected with us and never miss an update by visiting our
-            Social Media plataforms.
-          </p>
-          <a href="./connect-with.html" class="btn btn-dark">Dont miss!</a>
+    <div class="form-relative">
+      <div class="cards-home">
+        <div class="card" style="width: 18rem">
+          <img
+            src="./img/home/Connect-card.jpg"
+            class="card-img-top cards-img"
+            alt="connect with us"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Connect with us!</h5>
+            <p class="card-text">
+              Stay connected with us and never miss an update by visiting our
+              Social Media plataforms.
+            </p>
+            <a href="./connect-with.html" class="btn btn-dark">Dont miss!</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="./img/home/AboutUs-card.jpg"
+            class="card-img-top cards-img"
+            alt="Abou us"
+          />
+          <div class="card-body">
+            <h5 class="card-title">About us</h5>
+            <p class="card-text">
+              Learn about our passionate team and our commitment to providing
+              innovative solutions and exceptional customer experiences.
+            </p>
+            <a href="./about.html" class="btn btn-dark">Get to know us</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="./img/home/News.jpg"
+            class="card-img-top cards-img"
+            alt="Newsletter"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Newsletter</h5>
+            <p class="card-text">
+              Subscribe to our newsletter and stay up-to-date with our latest
+              news, products, and exclusive offers.
+            </p>
+            <button class="btn btn-dark" type="button" id="subscribe">
+              Subscribe
+            </button>
+          </div>
         </div>
       </div>
-      <div class="card" style="width: 18rem">
-        <img
-          src="./img/home/AboutUs-card.jpg"
-          class="card-img-top cards-img"
-          alt="Abou us"
-        />
-        <div class="card-body">
-          <h5 class="card-title">About us</h5>
-          <p class="card-text">
-            Learn about our passionate team and our commitment to providing
-            innovative solutions and exceptional customer experiences.
-          </p>
-          <a href="./about.html" class="btn btn-dark">Get to know us</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img
-          src="./img/home/News.jpg"
-          class="card-img-top cards-img"
-          alt="Newsletter"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Newsletter</h5>
-          <p class="card-text">
-            Subscribe to our newsletter and stay up-to-date with our latest
-            news, products, and exclusive offers.
-          </p>
-          <button
-            class="btn btn-dark"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasBottom"
-            aria-controls="offcanvasBottom"
-          >
-            Subscribe
-          </button>
-        </div>
-      </div>
-    </div>
-    <!--Canvas form-->
-    <div>
-      <div
-        class="offcanvas offcanvas-bottom h-auto"
-        tabindex="-1"
-        id="offcanvasBottom"
-        aria-labelledby="offcanvasBottomLabel"
-      >
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasBottomLabel">
-            Get to know everything new we have today!!!
-          </h5>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="offcanvas-body">
-          <!--Form Subscribe-->
-          <form>
-            <div class="mb-3 col-md-4">
-              <label for="exampleInputEmail1" class="form-label"
-                >Email address</label
-              >
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-              />
-              <div id="emailHelp" class="form-text">
-                We'll never share your email with anyone else.
-              </div>
-            </div>
-            <div class="mb-3 col-md-4">
-              <label for="exampleInputName1" class="form-label col-lg-6"
-                >First Name</label
-              >
-              <input
-                type="text"
-                class="form-control"
-                id="exampleInputName1"
-                required
-              />
-            </div>
-            <button type="submit" class="btn btn-dark">Submit</button>
-          </form>
-        </div>
-      </div>
+      <!-- Form with JS-->
+      <section id="formContainer" class="form-none">
+        <form class="form-sub" id="form">
+          <div class="close-button">
+            <h4>Get to know everything new we have today!!!</h4>
+            <a id="closeForm">Maybe later</a>
+          </div>
+          <label for="first-name">First name</label>
+          <input type="text" id="first-name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" required />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
     </div>
     <footer>
       <p class="p-footer">&#169; FaceTogether, “Our.Problems” Inc.</p>

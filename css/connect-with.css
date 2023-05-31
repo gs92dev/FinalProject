@@ -60,9 +60,9 @@ img{
   justify-content: center;
 }
 form{
-  background-color: #84776c;
-  border-radius: 10px;
-  border: black 1px solid;
+  color: #9a9898;
+  background-color: #e2dcdc;
+  border-radius: 5px;
   box-shadow: 10px 5px 5px #a59384;
   display: flex;
   flex-direction: column;
@@ -70,13 +70,13 @@ form{
   width: 500px;
 }
 label{
-  color: white;
+  color: rgb(32, 30, 30);
   margin: 5px;
 }
 input{
   background-color: #e2d7ce;
   border-radius: 7px;
-  border: 1px black solid;
+  border: 1px rgb(179, 164, 164) solid;
   box-shadow: 7px 4px 4px #a59384;
   font-size: 1rem;
   width: 300px;
@@ -84,13 +84,13 @@ input{
 textarea{
   background-color: #e2d7ce;
   border-radius: 10px;
-  border: 1px black solid;
+  border:1px rgb(179, 164, 164) solid;
   box-shadow: 7px 4px 4px #a59384;
   padding: 5px;
   width: 400px;
 }
 .btn-send{
-  border: 1px black solid;
+  border: 1px rgb(179, 164, 164) solid;
   margin: 10px;
   width: 100px;
   border-radius: 10px;

@@ -22,11 +22,11 @@ section{
   height: 80vh;
 }
 #itemForm{
-  padding: 15px;
   background-color: #e2dcdc;
   border-radius: 5px;
   box-shadow: 10px 5px 5px #9a9898;
   margin-top: 20px;
+  padding: 15px;
 }
 input:hover{
   cursor: pointer;

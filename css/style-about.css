@@ -6,6 +6,7 @@ p {
   padding: 1.5rem;
 }
 .about-us {
+  font-size: 1.5rem;
   margin: auto;
   width: 80%;
 }
@@ -48,4 +49,7 @@ height: 100%;
 }
 .p-carousel{
   margin-left: 20%;
+  background-color: #ae9b8c;
+  border-radius: 5px;
+ 
 }

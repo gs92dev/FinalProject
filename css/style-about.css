@@ -6,9 +6,13 @@ p {
   padding: 1.5rem;
 }
 .about-us {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin: auto;
-  width: 80%;
+  width: 60%;
+}
+.img-about{
+  width: 350px;
+  margin-bottom: -38px;
 }
 .mission {
   align-items: center;

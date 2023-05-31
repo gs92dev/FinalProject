@@ -39,3 +39,13 @@ p {
 .col-img{
 height: 100%;
 }
+.img-fluid {
+  max-width: 70% !important;
+  height: auto;
+}
+.col-img{
+  margin-right: 0;
+}
+.p-carousel{
+  margin-left: 20%;
+}

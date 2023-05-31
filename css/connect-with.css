@@ -46,13 +46,19 @@ img{
   width: 100%;
 }
 
-.logo-container{
+.description{
   align-items: center;
+  color: #FFFFFF;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  margin-left: 30px;
   width: 40%;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.description p {
+font-size: 1rem;
 }
 .form-Container{
   width: 60%;

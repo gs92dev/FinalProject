@@ -25,3 +25,50 @@ header {
 .products-ul li{
  list-style: none;
 }
+.cards{
+  width: 18rem;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 7px;
+  box-shadow: 3px 3px 2px 1px rgba(232, 150, 87, 0.2);
+}
+.cards-img{
+  border-radius: 7px 7px 0px 0px ;    
+  width: 18rem;  
+}
+.cards-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  
+}
+.btn-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  
+}
+.btn-img{
+color: #392914;
+margin: 4px;
+padding: 4px 10px 4px 10px;
+text-decoration: none;
+font-weight: bold;
+
+}
+.btn-img:hover{
+  background-color: #bba897;
+ 
+}
+.price{
+  color: #392914;
+  margin: 4px;
+  padding: 4px 10px 4px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-left: 1px solid black;
+}

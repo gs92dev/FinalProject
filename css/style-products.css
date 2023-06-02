@@ -2,6 +2,9 @@ header {
   background-color: #ccb9a8;
   position: relative;
 }
+body{
+  background-color: #ccb9a8;
+}
 
 .carousels{
   padding: 1rem 0 4rem 0;
@@ -11,6 +14,7 @@ header {
   flex-wrap: wrap;
   position: static;
   background-color: #ccb9a8;
+
 }
 
 .products-ul{

@@ -28,6 +28,9 @@
   padding-top: 5rem;
   
 }
+.carousel-inner video {
+  height: 120vh;
+}
 
 .carousel-item img {
   height: 120vh;

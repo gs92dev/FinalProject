@@ -27,7 +27,7 @@ header {
 }
 .cards{
   width: 18rem;
-  background-color: #FFFFFF;
+  background-color: #fafafa;
   display: flex;
   flex-direction: column;
   align-items: center;

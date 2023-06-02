@@ -8,6 +8,8 @@ main{
 h1{
   color: #fafafa;
   text-align: center;
+  font-family: 'Inter', sans-serif;
+  text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.3);
  
 }
 .form{

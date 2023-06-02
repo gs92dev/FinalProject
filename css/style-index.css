@@ -1,5 +1,5 @@
 .image-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(4,4,4, 0.3), rgba(4, 4, 4, 0.3)),
     url(../img/home/three-multicultural-girls-together.jpg);
     height: 100vh;
    background-size: cover;
@@ -8,9 +8,11 @@
 
 
 .h1-phrase{
-  color: aliceblue;
+  color: #fafafa;
  padding-top: 70vh;
  text-align: center;
+ font-family: 'Inter', sans-serif;
+ text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.5);
 }
 .carousel-home {
   width: 100%;
@@ -30,6 +32,8 @@
 }
 .carousel-inner video {
   height: 120vh;
+  object-fit:cover;
+
 }
 
 .carousel-item img {
@@ -48,7 +52,7 @@
   top: 285px;
   height: 300px;
   z-index: 1;
-  background: #FFFFFF;
+  background: #fafafa;
   width: 100%;
 }
 .form-none{
@@ -88,7 +92,7 @@
 
 @media only screen and (max-width: 600px) {
   .image-background {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    background-image: linear-gradient(rgba(4, 4, 4, 0.3), rgba(4, 4, 4, 0.3)),
       url(../img/home/transferir.jpg);
 
     height: 30rem;
@@ -96,8 +100,10 @@
     background-repeat: no-repeat;
   }
   .h1-phrase{
-    color: aliceblue;
+    color: #fafafa;
    padding-top: 10rem;
    text-align: center;
+   font-family: 'Inter', sans-serif;
+   text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.5);
   }
 }

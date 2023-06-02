@@ -3,7 +3,7 @@ header {
   position: relative;
 }
 
-.caroussels{
+.carousels{
   padding: 1rem 0 4rem 0;
   /*width: 100%;*/
   height: fit-content;
@@ -49,7 +49,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid rgb(4, 4, 4);
+  font-family: 'Inter', sans-serif;
   
 }
 .btn-img{
@@ -58,6 +59,7 @@ margin: 4px;
 padding: 4px 10px 4px 10px;
 text-decoration: none;
 font-weight: bold;
+font-family: 'Inter', sans-serif;
 
 }
 .btn-img:hover{
@@ -70,5 +72,6 @@ font-weight: bold;
   padding: 4px 10px 4px 10px;
   text-decoration: none;
   font-weight: bold;
-  border-left: 1px solid black;
+  border-left: 1px solid rgb(4, 4, 4);
+  font-family: 'Inter', sans-serif;
 }

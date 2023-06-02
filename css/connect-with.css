@@ -1,9 +1,14 @@
 
 main, header{
-  background-color: #ccb9a8;
+  
 }
 main{
   padding-bottom: 30px;
+}
+body{
+  background-image: url(../img/home/Home.jpg);
+  background-size: cover;
+  background-repeat: none;
 }
 .title {  
   color: white;

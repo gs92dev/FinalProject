@@ -11,19 +11,55 @@ html {
 a:hover {
   cursor: pointer;
 }
-.navbar-brand {
-  text-decoration: none;
-}
-.nav-stylee {
+.nav-links-container{
+  background-color: rgba(255, 229, 204, 0.2);
   display: flex;
-  flex-direction: row;
+  height: 60px;
+  list-style: none;
+  width: 100%;
+  padding-top: 4px;
+ align-items: center;
+}
+.nav-links{  
+  list-style: none;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 4px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0 15px 0 15px;
+}
+.nav-menu{
+  align-items: center;
+  color: #fafafa;
+  display: flex;
+  padding: 4px;
   justify-content: space-between;
 }
-.nav-links {
-  color: aliceblue;
-  padding: 0.5rem;
+.icon-brand-container{
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  padding: 4px;
 }
-
+.icon-brand-container a{
+  text-decoration: none;
+  color: #FFFFFF;
+  margin: 8px 0 0 16px;
+  font-weight: bold;
+}
+.nav-img{
+  height: 2rem;
+  margin-left: 30px;
+  cursor: pointer;
+ 
+}
+.nav-symbols{
+ margin: 16px 100px 0 16px;
+}
+.none{
+  display: none;
+}
 h1 {
   font-size: 2rem;
   justify-content: center;

@@ -1,9 +1,4 @@
 
-main, header{
- 
-  
-
-}
 main{
   padding-bottom: 30px;
 }
@@ -43,7 +38,7 @@ p{
   text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.2);
 }
 
-img{
+.logos{
   width: 8rem; height: 8rem; 
 }
 

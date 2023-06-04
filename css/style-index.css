@@ -5,8 +5,23 @@
    background-size: cover;
    background-repeat: no-repeat;
 }
-
-
+.nav-links-container{
+  background-color: #ccb9a8;
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+.nav-links{
+  padding: 4px;
+  list-style: none;
+  text-decoration: none;
+}
+.nav-close{
+  color: #fafafa;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+}
 .h1-phrase{
   color: #fafafa;
  padding-top: 70vh;

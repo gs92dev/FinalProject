@@ -12,7 +12,7 @@ body{
   padding: 15px;
   text-align: center;
   font-family: 'Pacifico', cursive;
-  font-size: 3.3rem;
+  font-size: 4.2rem;
   text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.3);
 }
 figure{
@@ -25,20 +25,35 @@ figure{
 figcaption{
   color: aliceblue;
   font-size: 1.2rem;
-  padding: 15px;
-  font-family: 'Inter', sans-serif;
-  font-weight: bold;
+  padding: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
   text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.25);
 }
 p{
-  color: #fafafa;
-  font-size: 1.5rem;
+  color: #faf6f2;
+  font-size: 2rem;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
-  text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.2);
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.55);
+  background-color:rgba(43, 18, 0, 0.25);
+  padding: 25px;
+
 }
 
-.logos{
+b {
+  color: #faf6f2;
+  font-size: 2.8rem;
+  font-weight: 800;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.7);
+}
+
+
+
+img{
+
+
   width: 8rem; height: 8rem; 
 }
 
@@ -58,16 +73,16 @@ p{
 
 .description{
   align-items: center;
-  color: #fafafa;
+  color: #413c36;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 30px;
   width: 40%;
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 650;
   font-family: 'Inter', sans-serif;
-  text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.2);
+  text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.0);
   
   
 }
@@ -83,7 +98,7 @@ font-family: 'Inter', sans-serif;
 form{
   color: #9a9898;
   background-color: #e2dcdc;
-  opacity: 0.6;
+  opacity: 0.8;
   
   border-radius: 5px;
   box-shadow: 10px 5px 5px #a59384;
@@ -95,7 +110,7 @@ form{
 label{
   color: rgb(32, 30, 30);
   margin: 5px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 input{
   background-color: #fafafa;
@@ -122,6 +137,7 @@ textarea{
   font-weight: bold;
   transition: 2s;
   font-family: 'Inter', sans-serif;
+  box-shadow: 7px 4px 4px #a59384;
 }
 .btn-send:hover{
   height: 45px;

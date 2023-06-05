@@ -1,5 +1,6 @@
 main, header{
   
+  
 }
 body{
   background-image: url(../img/about/aboutus-bg.jpg);
@@ -9,14 +10,18 @@ body{
 p {
   color: #fdfbfb;
   padding: 1.5rem;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  
   
 }
 .about-us {
   font-size: 1.25rem;
   margin: auto;
   width: 60%;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  background-color:rgba(43, 9, 0, 0.05);
+  
+
   text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.25);
 }
 .img-about{
@@ -29,7 +34,8 @@ p {
   display: flex;
   flex-direction: column;
   margin: auto;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+
   text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.4);
 }
 
@@ -40,6 +46,7 @@ p {
   display: block;
   height: 30%;
   padding-bottom: 20px;
+  
 }
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
@@ -67,5 +74,7 @@ height: 100%;
   background-color: #ae9b8c;
   border-radius: 5px;
   text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.35);
- 
+  
 }
+
+

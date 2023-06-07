@@ -1,8 +1,7 @@
-
 main{
-  padding-bottom: 30px;
+  height: 90vh;
 }
-body{
+.background{
   background-image: url(../img/connect/connectbg.jpg);
   background-size: cover;
   background-repeat: none;
@@ -11,7 +10,7 @@ body{
   color: #fafafa;
   padding: 15px;
   text-align: center;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico', cursive;                                     
   font-size: 4.2rem;
   text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.3);
 }

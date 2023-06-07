@@ -30,7 +30,7 @@ figcaption{
   font-weight: 700;
   text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.25);
 }
-p{
+.lets{
   color: #faf6f2;
   font-size: 2rem;
   font-weight: 500;
@@ -39,6 +39,9 @@ p{
   background-color:rgba(43, 18, 0, 0.25);
   padding: 25px;
 
+}
+.lets:hover{
+  background-color:rgba(43, 18, 0, 0.6);
 }
 
 b {
@@ -97,9 +100,7 @@ font-family: 'Inter', sans-serif;
 }
 form{
   color: #9a9898;
-  background-color: #e2dcdc;
-  opacity: 0.8;
-  
+  background-color: rgba(226, 220, 220, 0.7);  
   border-radius: 5px;
   box-shadow: 10px 5px 5px #a59384;
   display: flex;
@@ -107,26 +108,35 @@ form{
   padding: 20px 50px ;
   width: 500px;
 }
+form:hover{
+  background-color: rgba(226, 220, 220, 1);
+}
 label{
   color: rgb(32, 30, 30);
   margin: 5px;
   font-family: 'Quicksand', sans-serif;
 }
 input{
-  background-color: #fafafa;
+  background-color: rgba(255, 255, 255, 0.7);  
   border-radius: 7px;
   border: 1px rgb(179, 164, 164) solid;
   box-shadow: 7px 4px 4px #a59384;
   font-size: 1rem;
   width: 300px;
 }
+input:hover{
+  background-color: rgba(226, 220, 220, 1);
+}
 textarea{
-  background-color: #fafafa;
+  background-color: rgba(255, 255, 255, 0.7);  
   border-radius: 10px;
   border:1px rgb(179, 164, 164) solid;
   box-shadow: 7px 4px 4px #a59384;
   padding: 5px;
   width: 400px;
+}
+textarea:hover{
+  background-color: rgba(226, 220, 220, 1);
 }
 .btn-send{
   border: 1px rgb(179, 164, 164) solid;

@@ -18,12 +18,12 @@ export class ProductController {
       price: price,
     };
 
-    // Push the item to the items property
+    // Push the item to the items property.
     this.items.push(item);
-    //Save items to local storage
+    //Save items to local storage.
     localStorage.setItem("items", JSON.stringify(this.items));
   }
-
+  //Function to get the information from the local storafe and store it in the array items.
   loadItemsFromLocalStorage() {
     const storageItems = localStorage.getItem("items");
     if (storageItems) {
@@ -35,7 +35,4 @@ export class ProductController {
     }
   }
 }
-//const products = new ProductController();
-// products.addItem("Facial Mask", "Description", "../img/products/pexels-shiny-diamond-3762875.jpg.");
 
-//console.log(products.items);

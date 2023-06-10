@@ -1,3 +1,4 @@
+//Implementationof navbar with JS instead of Bootstrap
 const nav = document.getElementById("nav");
 window.onload = () => {
   nav.innerHTML = `<ul id="showNav" class="none">

@@ -1,6 +1,5 @@
 import { ProductController } from "./product-controller.js";
 // Initialize a new TaskManager with currentId set to 0
-
 const products = new ProductController(0);
 
 //Add a new product in the product page
@@ -37,4 +36,4 @@ function loadCardsListFromItemsController() {
 
 products.loadItemsFromLocalStorage();
 loadCardsListFromItemsController();
-console.log(products);
+

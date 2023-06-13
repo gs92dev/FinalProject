@@ -1,6 +1,5 @@
-main, header{
-  
-  
+h2 {
+ text-align: center;
 }
 body{
   background-image: url(../img/about/aboutus-bg.jpg);
@@ -13,6 +12,9 @@ p {
   font-family: 'Quicksand', sans-serif;
   
   
+}
+.aboutText{
+  text-align: center;
 }
 .about-us {
   font-size: 1.25rem;
@@ -35,7 +37,7 @@ p {
   flex-direction: column;
   margin: auto;
   font-family: 'Quicksand', sans-serif;
-
+  justify-content: center;
   text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.4);
 }
 

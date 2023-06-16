@@ -105,4 +105,10 @@
    font-family: 'Inter', sans-serif;
    text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.5);
   }
+  .carousel-image-desktop{
+    display: none !important;
+  }
+  .carousel-image-mobile{
+    display: block;
+  }
 }

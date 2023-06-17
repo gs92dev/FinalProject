@@ -88,6 +88,9 @@
   width: 80px;
   margin: 8px 4px;
 }
+.carousel-image-mobile{
+  display: none !important;
+}
 
 @media only screen and (max-width: 600px) {
   .image-background {
@@ -109,6 +112,7 @@
     display: none !important;
   }
   .carousel-image-mobile{
-    display: block;
+    display: block !important;
+    height: 800px !important;
   }
 }

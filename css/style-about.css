@@ -78,5 +78,16 @@ height: 100%;
   text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.35);
   
 }
-
+@media only screen and (max-width: 600px) {
+  .about-us{
+    width: 98%;
+  }
+  .img-about{
+    display: none;
+  }
+  .carousel-mobile{
+    display: flex;
+    flex-direction: column;
+  }
+}
 

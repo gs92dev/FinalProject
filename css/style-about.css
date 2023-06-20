@@ -78,6 +78,9 @@ height: 100%;
   text-shadow: 2px 2px 4px rgba(32, 30, 30, 0.35);
   
 }
+figcaption{
+  display: none;
+}
 @media only screen and (max-width: 600px) {
   .about-us{
     width: 98%;
@@ -88,6 +91,19 @@ height: 100%;
   .carousel-mobile{
     display: flex;
     flex-direction: column;
+  }
+  .p-mobile{
+    display: none;
+  }
+  .img-fluid {
+    max-width:300px !important;
+    height: 350px!important;
+    margin: auto;
+  }
+  figcaption{
+    margin-right: 20px !important;
+    display: block;
+    color: #fafafa;
   }
 }
 
